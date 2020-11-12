@@ -1,40 +1,53 @@
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-  /* Create four equal columns that sits next to each other */
-  .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
-  .center {
-    margin: auto;
-    width: 50%;
-     padding: 10px;
+
+  body{
+      background-color: rgb(0, 0, 0);
+      font-family: Arial, sans-serif;
+      font-size: 85%;
+            }
+.belo{
+            margin-left: 124px;
+            margin-right: 124px;
+            background-color: rgb(255, 255, 255);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 2px;
+        }
+.main{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(238, 238, 238);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#img-div{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    line-height: 17px;
+    vertical-align:bottom;
+padding: 0%;
+    z-index:1;
+}
+.textcenter{
      text-align: center;
-  }
+}
+.slika{
+     text-align: center;  
+     vertical-align:bottom
+}
+.sredina{
+    background-color: rgb(238, 238, 238);
+    text-align: justify;
+    margin-left: 280px;
+    margin-right: 300px;
+
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+}
+h1{
+    font-size: 250%;
+    padding-top: 20px;
+}

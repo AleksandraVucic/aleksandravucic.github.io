@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>project 2 Survey Form </title>
+    <link rel="stylesheet" href="forma.css">
+  </head>
+  <body>
+      <div>
+          <center>
+<h1>freeCodeCamp Survey Form</h1>
+      <p><i><small>Thank you for taking the time to help us improve the platform</i></small></p><br>
+</center>
+      <form id="survey-form">
+        <label id='name' for='name'>Name</label>
+        <br><input type='text' class="kutija" placeholder='Enter your name' required></input>
+        <br><label>Email</label>
+      <br><input type='email' class="kutija" placeholder='Enter your email' required>
+      <br><label id='age'>Age&nbsp<span> (optional)</span></label>
+      <br><input type='number' id='age' min="1" max="115" class="kutija" placeholder="Age">
+      <br><label for="select-role" >Which option best describes your current rule?</label><br>
+      <select  name="role" id="select-role" class="kutijaManja">
+        <option value="">Select current role</option>
+        <option value="">Data.Dev</option>
+        <option value="">Web.Dev</option>
+      </select>
+    </select>
+    <br>
+    <br>
+    <label target>Would you recommend freeCodeCamp for a friend?</label><br>
+    <label for="1"><input type="radio" name="opinion" id="1" value="definitely">&nbspDefinitely</label><br>
+    <label for="2"><input type="radio" name="opinion" id="2" value="maybe">&nbspMaybe</label><br>
+    <label for="3"><input type="radio" name="opinion" id="3" value="not sure">&nbspNot sure</label><br>
+    <br><label for="selct feature">What is your favorite feature of freeCodeCamp?</label><br>
+    <select  name="your favorite feature" id="select feature" class="kutijaManja"> 
+      <option value="">Select an option</option>
+      <option value="">formations tech</option>
+      <option value="">formations transverses</option>
+      <option value="">formations en partenariat</option>
+    </select><br>
+    <br><label target>What would you like to see improved? <small>(Check all that apply)</small>></label><br>
+      <label for="1"><input type="checkbox" name="improved" id="1">&nbspFront-end Projects</label><br>
+      <label for="2"><input type="checkbox" name="improved" id="2">&nbspBack-end Projects</label><br>
+      <label for="3"><input type="checkbox" name="improved" id="3">&nbspData Visualization</label><br>
+      <label for="4"><input type="checkbox" name="improved" id="4">&nbspChallenges</label><br>
+      <label for="5"><input type="checkbox" name="improved" id="5">&nbspOpen Source Community</label><br>
+      <label for="6"><input type="checkbox" name="improved" id="6">&nbspGitter help rooms</label><br>
+      <label for="7"><input type="checkbox" name="improved" id="7">&nbspVideos</label><br>
+      <label for="8"><input type="checkbox" name="improved" id="8">&nbspCity Meetups</label><br>
+      <label for="9"><input type="checkbox" name="improved" id="9">&nbspWiki</label><br>
+      <label for="10"><input type="checkbox" name="improved" id="10">&nbspForum</label><br>
+      <label for="11"><input type="checkbox" name="improved" id="11">&nbspAdditional Courses</label><br>
+      <br><label target>Any comments or suggestions?</label><br>
+      <textarea placeholder="Enter your comment here..." rows="7" cols="85rem" class="tekst"></textarea><br>
+      <br><input  class="enter" type="submit" id="submit"><br>
+
+
+    </form>
+
+  </div>
+
+</body>
+</html>
